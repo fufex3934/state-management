@@ -1,3 +1,4 @@
+import Form from "./Form"
 import Header from "./Header"
 import InputField from "./InputField"
 
@@ -11,7 +12,8 @@ function App() {
       <InputField/>
       {/* <Practice1/>
       <Practice2/> */}
-      <Practice3/>
+      {/* <Practice3/> */}
+      <Form/>
     </>
   )
 }
