@@ -10,10 +10,16 @@ export default function Practice3() {
     email: "itsmyrealname@example.com",
     isFavorite: false
 });
-const[isFavorite,setIsFavorite] = useState(contact.isFavorite);
+// const[isFavorite,setIsFavorite] = useState(contact.isFavorite);
 
 function toggleFavorite() {
-    setIsFavorite(!isFavorite);
+    // setIsFavorite(!isFavorite);
+    setContact(prevContact=>{
+      return{
+       ...prevContact,
+        isFavorite:!prevContact.isFavorite
+      }
+    })
 }
 
 return (
@@ -31,7 +37,7 @@ return (
                     className="favorite-button"
                 >
                     <img
-                        src={isFavorite ? starFilled:starEmpty}
+                        src={contact.isFavorite ? starFilled:starEmpty}
                         alt="empty star icon"
                         className="favorite"
                     />
