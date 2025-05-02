@@ -13,7 +13,7 @@ function App() {
       {/* <Practice1/>
       <Practice2/> */}
       {/* <Practice3/> */}
-      <Form/>
+      {/* <Form/> */}
     </>
   )
 }
