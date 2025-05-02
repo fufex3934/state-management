@@ -1,5 +1,6 @@
 import Header from "./Header"
 import InputField from "./InputField"
+import Practice1 from "./Practice1"
 function App() {
   
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header/>
       <InputField/>
+      <Practice1/>
     </>
   )
 }
