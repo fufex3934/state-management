@@ -1,7 +1,7 @@
 import Header from "./Header"
 import InputField from "./InputField"
-import Practice1 from "./Practice1"
-import Practice2 from "./Practice2"
+
+import Practice3 from "./Practice3"
 function App() {
   
 
@@ -9,8 +9,9 @@ function App() {
     <>
       <Header/>
       <InputField/>
-      <Practice1/>
-      <Practice2/>
+      {/* <Practice1/>
+      <Practice2/> */}
+      <Practice3/>
     </>
   )
 }
